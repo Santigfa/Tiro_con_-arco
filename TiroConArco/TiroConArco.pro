@@ -9,11 +9,13 @@ HEADERS += \
     include/Flecha.h \
     include/Jugador.h \
     include/Objetivo.h \
-    include/ObjetivoFijo.h
+    include/ObjetivoFijo.h \
+    include/Portal.h
 
 SOURCES += \
     main.cpp \
     src/Flecha.cpp \
     src/Jugador.cpp \
     src/Objetivo.cpp \
-    src/ObjetivoFijo.cpp
+    src/ObjetivoFijo.cpp \
+    src/Portal.cpp

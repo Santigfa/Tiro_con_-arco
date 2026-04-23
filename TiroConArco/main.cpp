@@ -2,6 +2,7 @@
 #include "Flecha.h"
 #include "Jugador.h"
 #include "ObjetivoFijo.h"
+#include "Portal.h"
 
 using namespace std;
 
@@ -31,6 +32,20 @@ int main()
     cout << "Objetivo X: " << obj.getX() << endl;
     cout << "Objetivo Y: " << obj.getY() << endl;
     cout << "Radio: " << obj.getRadio() << endl;
+
+    Portal p;
+
+    p.setX(10);
+    p.setY(10);
+
+    p.setXDestino(100);
+    p.setYDestino(50);
+
+    p.teletransportar(*f);
+
+    cout << "Después del portal:" << endl;
+    cout << "X: " << f->getX() << endl;
+    cout << "Y: " << f->getY() << endl;
 
     delete f;
 
