@@ -1,25 +1,30 @@
-# Proyecto: Tiro con Arco con Portales
+# UdeAWorldCup - Simulador Mundial 2026
 
-Este proyecto consiste en el desarrollo de un videojuego en C++ utilizando programación orientada a objetos.
+Proyecto en C++ que simula el Mundial FIFA 2026.
 
 ## Características
-
-- Simulación de tiro con arco con movimiento parabólico
-- Sistema de niveles con memoria dinámica
-- Objetivos fijos y móviles
-- Portales de teletransporte
-- Medición de iteraciones y memoria utilizada
+- 48 equipos
+- 12 grupos
+- 104 partidos simulados
+- Fase de grupos + eliminatorias
+- Estadísticas finales
+- Medición de memoria e iteraciones
 
 ## Tecnologías
-
 - C++
 - Qt Creator
+- Programación orientada a objetos
+- Estructuras de datos propias
 
-## Estructura
+## Uso
+Ejecutar el programa y seguir el menú:
 
-- include/ → archivos .h
-- src/ → archivos .cpp
+1. Cargar datos  
+2. Conformar grupos  
+3. Simular fase de grupos  
+4. Construir clasificación  
+5. Simular eliminatorias  
+6. Estadísticas finales  
 
-## Autores
-
-- Santiago Andrés Guzmán Fuentes
+## Autor
+Santiago Andrés Guzmán Fuentes
