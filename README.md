@@ -1,11 +1,25 @@
-# Tiro_con_arco
-Proyecto de informatica 2 
+# Proyecto: Tiro con Arco con Portales
 
-# Tiro con Arco con Portales
+Este proyecto consiste en el desarrollo de un videojuego en C++ utilizando programación orientada a objetos.
 
-Proyecto de Informática II
+## Características
 
-## Momento 1
-- Análisis del problema
-- Diseño UML
-- Uso de memoria dinámica
+- Simulación de tiro con arco con movimiento parabólico
+- Sistema de niveles con memoria dinámica
+- Objetivos fijos y móviles
+- Portales de teletransporte
+- Medición de iteraciones y memoria utilizada
+
+## Tecnologías
+
+- C++
+- Qt Creator
+
+## Estructura
+
+- include/ → archivos .h
+- src/ → archivos .cpp
+
+## Autores
+
+- Santiago Andrés Guzmán Fuentes
